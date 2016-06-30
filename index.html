@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header"></div>
+    <div class="header">
+            <img class="img1" src="./image/kaba.jpg" alt="">
+            <img class="img2" src="" alt="">
+            <img src="" alt="">
+         
+    </div>
     <div class="category" >
         <table class="artical" >
-            <tr class="arti" id="articalCategories"><th>Artical Categories</th></tr>
+            <tr><th id="articalCategories">Artical Categories</th></tr>
     
             <tr>
               <td>  
@@ -36,19 +41,85 @@
     <div class="videoButton"> <b>Video Categories</b></div>
     <div class="search">Search</div>
     <div class="serachBAr">
+        <form action="">
         <input class="sfield" type="search" placeholder="search..." ><br/>
         <input type="radio" name="words">All words<br/>
         <input type="radio" name="words" >Any Words<br/>
         <input type="radio" name="words">Exact phrase<br/>
         <input type="radio" name="words">Sound Like<br/>
+        <input type="checkbox" name="derivatives">Include derivatives<br/>
+        <input type="checkbox" name="synonyms" >Include synonyms<br/>
+        <input type="button" value="Search">    
+        </form>
+    </div > 
+    <div class="contect">
+    <p> <a href="#">Intro E-book</a></p>
+    <p><a href="#">Guest</a> </p>
+    <p><a href="#">recommand use</a></p>
     </div>
     <div class="body">
-        <div class="newArtical">
-           <b>  New Artical This Week</b>
-        </div>
+        <div class="mainBody">
+          <div class="newArtical">
+           <h2>News Articles This Week</h2>
+        
+                <p><a href="#" id="newLink">Capter 98, Al-Bayyinah (The Clear Evidence)</a> <span id="date">(Published on 20 Jun 2016)</span>
+                <br> <b>Description:</b> A short chapter that delves deeply into the fact that the religion of God needed Prophet Muhammad(S.A.W.W) and a clear 
+                scripture, the Quran to warn and guide the people of disbelief to the straight way. 
+                </p>
+
+                <p><img id="ImageOfRoad" src="./image/road.jpg" alt="road image" align="right" ><b>Except:</b> The Clear evidence is one of the short chapters found towards the end of hte Quran. It contains only eight verses yet covers
+                 a number of themes including the coming of Prophet Muhammad(S.A.W.W), may the mercy and blessings of God be upon him, why it was necessary to 
+                 send him with a new revelation and the importance of respecting and acting upon knowledge. This chapter takes its title from the closing words
+                 of the first verse - the clear evidence. Chapter 98 also deals with a number of details about the history of faith. <span id="readMore">(Read more ...)</span></p>
        
-       <div class="navigation">
-           <div class="chatBox"></div>
+                <h2>New Videos This Week</h2>
+
+                <p> <a href="#">Prophecies About The Prophet Muhammad in The Bible</a> <br><span id="date">(Published on 20 Jun 2016)</span> </p>
+                
+                <p><img class="playVideo" src="./images/playvideo.jpg" alt="play video"> <b>Description:</b> In this video Adnan Rashid discuses some of the prophecies in the previous scrptures which speak of the Messenger Muhammad(S.A.W.W). He also discusses
+                the tolerance with which Islam received religion over the course of history.</p>
+
+                <br><br>
+                <p> <a href="#">Prophecies About The Prophet Muhammad in The Bible</a> <br><span id="date">(Published on 20 Jun 2016)</span> </p>
+                
+                <p><img class="playVideo" src="./images/playvideo.jpg" alt="play video"> <b>Description:</b> In this video Adnan Rashid discuses some of the prophecies in the previous scrptures which speak of the Messenger Muhammad(S.A.W.W). He also discusses
+                the tolerance with which Islam received religion over the course of history.</p>
+                <br><br><br>
+                <h2>Featured Articles This Week</h2>
+
+                <p><a href="#" id="newLink">Chapter 16, Verse 18: The Countless Blessings of God</a> <span id="date">(Published on 20 Jun 2016)</span>
+                <br> <b>Description: </b> The blessings we enjoy are innumerable. This verse reminds us of that and makes us reflect as to what is the
+                best way to express graditude to those blessings.
+                </p>
+
+                <p><img id="earthImage" src="./image/earth.png" align="right" alt=""> <b>Excerpt: </b> Our lives are a continuous succession of God's gifts. Many people, due to their outlook on life or their circumstances, fails to see that they are receiving God's bounty. God has made it clear that we will never be able to count all of His blessings upon us, since thy are uncouontable.</p>
+             </div>      
+          </div>>
+       
+         <div class="navigation">
+           
+            <div class="chat"><b> Live Help By Chat </b></div>
+           
+            <div class="chatBox">
+           
+               <div class="liveHelp">
+                    <h3>Live Help</h3><b>(Online)</b><br>
+                    <p>Have a question about islam or converting to it?</p>
+                    <b id="chatnow">Click here to Chat Now</b>
+               </div>
+           
+                 <p> Online daily: <br>
+                  From 10:00pm to 1:00am <br>
+                  (According your computer time)</p> 
+            </div>
+
+            <div class="About"><b> About this site </b></div>
+           
+               <div class="AboutBox">
+           
+                 <p> </p> 
+              </div>  
+
        </div>
     </div>
 </body>

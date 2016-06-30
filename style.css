@@ -1,34 +1,53 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: cornflowerblue;
-    
+    background-image: url(./image/wallpaper.jpg);
 }
 .header{
     width: 100%;
-    height: 130px;
-    background-color: blue;
+    height: 200px;
+
    
 }
+.img1{
+    opacity: 0.5;
+    width: 220px;
+    height: 270px;
+}
+
 #articalCategories{
+             
+             border: 2px solid #07216A;
+             border-radius: 20px 20px 0px 0px;
+             background-color: #07216A;
+             font-size: 1.1em;
+             padding: 9px 7px 9px 7px;
+             color: #8898CA;
+             box-shadow: inset 2px 2px #A1A0EA;
    
    
     
 }
 #arti{
-           display: block;
+           list-style-type: none;
+           position: absolute;
+           top: 30px;
+           left: -40px;
            font-family: sans-serif;
            font-size: 15px;      
-           border: 2px solid #A3A2E7;
-           padding: 5px;
-           
-           box-shadow: inset -2px -3px 10px black;
+           box-shadow: inset -1px -1px 4px black;
            border-radius: 5px;
 }
+#arti li{
+           border: 1px inset #A3A2E7; 
+           box-shadow: inset -2px -3px 10px black;
+           border-radius: 5px;
+           padding: 2px;
+           }
 .category{
     width: 16%;
-    height: 350px;
-    background-color: cadetblue;
+    height: 360px;
+    background-color: deepskyblue;
     margin: 10px;
     position: absolute;
     top: 250px;
@@ -69,14 +88,16 @@ body{
     width: 16%;
     height: 200px;
     background-color: mediumpurple;
+    box-shadow:  2px 2px papayawhip;
     position: absolute;
     top: 778px;
     margin: 0px 10px;
     text-align: center;
     padding: 3px 0px; 
     color: white;
-
-
+}
+input{
+    text-align: left;
 }
 .sfield{
     width: 85%;
@@ -85,10 +106,21 @@ body{
 .radioButton{
     text-align: left;
 }
+.contect{
+    width: 16%;
+    height: 300px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 1030px;
+    margin: 0px 10px;
+    color: white;
+}
+
+
 
 .body{
     width: 80%;
-    height: 1000px;
+    height: 1400px;
     background-color: snow;
     position: absolute;
     top: 140px;
@@ -99,35 +131,131 @@ body{
 
 }
 .newArtical{
-    background-color: cornflowerblue;
-    width: 49%;
-    height:30px;
-    padding: 1px 0px 1px 150px ;
-    font-family: serif;
-    font-size: 1.5em;
-    margin: 40px auto 20px 10px;
+    padding: 5px 20px;
+    text-align: justify;
+    
+}
+.newArtical h2{
+   background-color: cornflowerblue;
+   padding: 5px;
+   width: 100%;
+   margin: 20px  2px;
+   text-align: center; 
 }
 .mainBody{
     width: 70%;
-    height: 1000px;
-    background-color: grey;
-    border-radius: 40px 0px 0px 0px;
+    height: 1400px;
+    background-color: lightcyan;
+    border-radius: 15px 0px 0px 0px;
     position: absolute;
     top: 0px;
 }
+#ImageOfRoad{
+    margin: 15px;
+    width: 60%;  
+}
+#earthImage{
+   width: 60%;
+   margin: 10px 0px 0px 10px;
+}
 .navigation{
     width: 30%;
-    height: 980px;
-    background-color: cadetblue;
+    height: 1400px;
+    background-color: lightblue;
     position: absolute;
+    top: 0px;
     left: 70%;
-    top: 20px;    
+        
 }
 .chatBox{
-    width: 90%;
+    width: 88%;
     height: 180px;
-    background-color: cornflowerblue;
+    background-color: lightblue;
     border: 2px solid blue;
-    margin: 250px 10px 0px 10px;
-    border-radius: 10px 10px 0px 0px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+    position: absolute;
+    top: 280px;
+}
+.chat {
+    width: 90%;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    padding: 6px 0px;
+    margin: 0px 10px;
+    background-color: blue;
+    border-radius: 15px 15px 0px 0px;
+}
+.chat b{
+    color: lightblue;
+}
+.chatBox p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+
+}
+.liveHelp{
+    width: 70%;
+    height: 80px;
+    background-color: cornflowerblue;
+    margin: 20px auto 10px auto;
+    border: 2px solid whitesmoke;
+    border: 2px 0px;
+    padding: 2px ;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 3px gray;
+}
+.liveHelp h3{
+    display: inline;
+    color: orange;
+    font-family: sans-serif;
+    font-style: bold;
+    margin: 5px;
+}
+.liveHelp b{
+    color: greenyellow;
+    font-size: 0.8em;
+}
+.liveHelp p{
+    margin: 0px auto;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.8em;
+}
+#chatnow{
+    color: white;
+    text-align: center;
+    margin: 2px;
+    font-size: 0.9em;
+    
+}
+.About{
+   width: 90%;
+    height: 30px;
+    position: absolute;
+    top: 550px;
+    text-align: center;
+    padding: 6px 0px;
+    margin: 0px 10px;
+    background-color: blue;
+    border-radius: 15px 15px 0px 0px;
+}
+.About b{
+    color: lightblue;
+    font-size: 
+}
+.AboutBox{
+     width: 88%;
+    height: 180px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+    position: absolute;
+    position: absolute;
+    top: 600px;
 }
