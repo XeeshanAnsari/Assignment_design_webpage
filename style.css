@@ -53,7 +53,11 @@ body{
            box-shadow: inset -2px -3px 10px black;
            border-radius: 5px;
            padding: 2px;
-           }
+} 
+ .playVideo{
+     width: 50px;
+     height: 40px;
+ }
 .category{
     width: 16%;
     height: 360px;
